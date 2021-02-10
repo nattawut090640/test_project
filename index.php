@@ -39,7 +39,7 @@ $loop = mysqli_query($conn, $sql);
       <div class="column">
         <center><img class="img" src="<?php echo $obj["p_img"]; ?>" width="100" height="100">
         <p>สินค้า : <?php echo $obj["p_name"]; ?></p>
-        <p>ราคา : <?php echo $obj["p_price"]; ?> บาท</p>
+        <p>ราคา : <?php echo $obj["p_price"]; ?>.- บาท</p>
         <details>
           <summary>รายละเอียดสินค้า</summary>
           <p><?php echo $obj["p_detail"]; ?></p>
